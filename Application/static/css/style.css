@@ -1,12 +1,13 @@
 
-
-body {
+body{
+    min-height:100%;
     background: url(sprouty.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-color: lavender;
+    background-position: center center;
+    background-attachment: fixed;
 }
+
 
 body:after {
     content: " ";
